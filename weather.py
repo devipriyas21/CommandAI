@@ -1,10 +1,11 @@
 import os
 import requests
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
-API_KEY = os.getenv("WEATHER_API_KEY")
+API_KEY = st.secrets("WEATHER_API_KEY")
 
 def get_weather(state, district):
 
