@@ -3,7 +3,6 @@
 CommandAI is an AI-powered web application that assists in disaster assessment by combining **Deep Learning**, **Real-Time Weather Data**, and **Generative AI**. The system classifies disaster images, retrieves live weather information, and generates an intelligent incident report to support emergency decision-making.
 
 ---
-......
 ## 🌟 Features
 
 - 🖼️ Disaster Image Classification using CNN (MobileNetV2)
